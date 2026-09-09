@@ -46,8 +46,9 @@ jobs:
           tags: ${{ vars.DOCKERHUB_USERNAME }}/devboard-frontend:lastest
 
   # backend:
-   # steps:
-   #   - Lint
-    #  - Build
-     # - Test
-      #- Push
+  # steps:
+  #   - Lint
+  #   - Build
+  #   - Test
+  #   - Push
+  
