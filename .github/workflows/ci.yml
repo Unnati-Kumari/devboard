@@ -67,7 +67,7 @@ jobs:
         working-directory: backend
 
       - name: Run Test
-        run: npm run test
+        run: go test
         working-directory: backend
 
       - name: Docker Setup [Login]
