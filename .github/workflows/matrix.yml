@@ -1,8 +1,10 @@
 # Goal:- To install multiple versions of Go and do linting for multiple versions
 name: Go Linter
 
-on: 
-    workflow_dispatch:
+on:
+#    workflow_dispatch:          This will not work in any other branches other than master
+    push:
+      branches: [feature-matrix]
 
 jobs:
     code-format:
