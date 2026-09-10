@@ -4,6 +4,9 @@ name: Go Linter
 on:
 #    workflow_dispatch:          This will not work in any other branches other than master
     push:
+      paths:
+        - '**'
+        - '!.github/workflows/**'
       branches: [feature-matrix]
 
 jobs:
