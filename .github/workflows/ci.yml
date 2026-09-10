@@ -80,7 +80,7 @@ jobs:
         with:
           context: ./backend
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/devboard-${{ matrix.folder }}:lastest
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/devboard-${{ matrix.folder }}:latest
 
 
   
