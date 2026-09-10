@@ -3,10 +3,8 @@
 name: CI
 
 on:
-#  push:
-#    branches: [feature-matrix]
-  schedule:
-    - cron: '20 1 * * *'
+  push:
+    branches: [feature-matrix]
 
 jobs:
   lint-frontend:
